@@ -16,3 +16,19 @@ Usage is the same as the original [.winrandom](http://ipsec.pl/winrandom) module
     2141228967
     >>> print repr(winrandom.bytes(10))
     '\xe6C\xfe\xbeRA\xfck"f'
+
+Support
+-------
+
+If you get stuck, feel free to open an issue on our 
+[.issue tracker](http://github.com/duointeractive/winrandom-ctypes/issues)
+
+Contributing
+------------
+
+If you'd like to contribute fixes, improvements, or additions, feel free to fork
+this repository and send a pull request.
+
+License
+-------
+winrandom-ctypes is licensed under the BSD license. Go nuts.

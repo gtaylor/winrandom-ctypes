@@ -9,7 +9,7 @@ cases where compiling such a module would be difficult or impossible.
 Usage
 -----
 
-Usage is the same as the original [.winrandom](http://ipsec.pl/winrandom) module:
+Usage is the same as the original [winrandom](http://ipsec.pl/winrandom) module:
 
     >>> import winrandom
     >>> print winrandom.long()
@@ -21,7 +21,7 @@ Support
 -------
 
 If you get stuck, feel free to open an issue on our 
-[.issue tracker](http://github.com/duointeractive/winrandom-ctypes/issues)
+[issue tracker](http://github.com/duointeractive/winrandom-ctypes/issues)
 
 Contributing
 ------------

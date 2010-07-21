@@ -2,7 +2,7 @@ winrandom-ctypes
 ================
 
 This package is meant to be a functional equivalent to Pawel Krawczyk's excellent 
-[.winrandom](http://ipsec.pl/winrandom) module. However, this version (as the
+[winrandom](http://ipsec.pl/winrandom) module. However, this version (as the
 name implies) uses ctypes instead of a C extension module. This is attractive in
 cases where compiling such a module would be difficult or impossible.
 

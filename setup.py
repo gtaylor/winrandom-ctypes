@@ -19,7 +19,7 @@ CLASSIFIERS = [
 
 KEYWORDS = 'random windows winrandom'
 
-setup(name='winrandom-crypto',
+setup(name='winrandom-ctypes',
       version=winrandom.VERSION,
       description='Winrandom equivalent using ctypes.',
       long_description = LONG_DESCRIPTION,

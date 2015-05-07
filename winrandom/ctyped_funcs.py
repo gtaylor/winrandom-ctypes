@@ -24,7 +24,7 @@ def get_bytes(num_bytes):
     ok = windll.Advapi32.CryptAcquireContextA(byref(hProv), None, None, PROV_RSA_FULL, 0)
     ok = windll.Advapi32.CryptGenRandom(hProv, wintypes.DWORD(num_bytes), cast(byref(s), POINTER(c_byte)))
 
-    return s.value
+    return s.raw
 
 def get_long():
     """
